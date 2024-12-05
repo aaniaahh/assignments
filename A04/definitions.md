@@ -123,7 +123,6 @@ An instance of the data structure and behaviour defined by the object's class. E
 **Object Relationships (Association, Aggregation, Composition):**
 refer to the different ways in which objects interact or are related to one another within a system. These relationships help define how objects collaborate and depend on each other in the context of the application's design.
 
-Primary types of object relationships:
 + Association: A general "uses-a" relationship between objects.
 
 + Aggregation: A weak "has-a" relationship, where the contained object can exist independently.
