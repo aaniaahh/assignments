@@ -121,12 +121,16 @@ An instance of the data structure and behaviour defined by the object's class. E
 
 
 **Object Relationships (Association, Aggregation, Composition):**
+refer to the different ways in which objects interact or are related to one another within a system. These relationships help define how objects collaborate and depend on each other in the context of the application's design.
 
+Primary types of object relationships:
 + Association: A general "uses-a" relationship between objects.
 
 + Aggregation: A weak "has-a" relationship, where the contained object can exist independently.
 
 + Composition: A strong "has-a" relationship, where the contained object depends on the container.
+
++ Inheritance: A "is-a" relationship, where a subclass inherits from a superclass.
 
 
 **Object-Oriented Design Principles:**
@@ -166,17 +170,18 @@ An access modifier that can be accessed within the same class or by a derived cl
 
 
 **SOLID Principles:**
-A set of five principles for good object-oriented design:
+A set of five principles for good object-oriented design introduced by Robert C. Martin:
 
-+ **S**ingle Responsibility:
++ **S**ingle Responsibility: A class should have only one reason to change, meaning it should have only one job or responsibility.
 
-+ **O**pen/Closed:
++ **O**pen/Closed: Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification.
 
-+ **L**iskov Substitution:
++ **L**iskov Substitution: Objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
 
-+ **I**nterface Segregation:
++ **I**nterface Segregation: A client should not be forced to depend on interfaces it does not use.
 
-+ **D**ependency Inversion:
++ **D**ependency Inversion: High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions.
+
 
 **Static (Methods and Variables):**
 Static Members: Belong to the class rather than instances of the class. They can be accessed without creating an object.
