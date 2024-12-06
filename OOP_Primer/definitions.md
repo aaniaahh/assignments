@@ -102,7 +102,17 @@ A Java term that allows classes and methods to operate on different data types w
 
 **Inheritance:**
 
-the ability to derive new classes from existing classes. A derived class (or "subclass") inherits the instance variables and methods of the "base class" (or "superclass"), and may add new instance variables and methods. New methods may be defined with the same names as those in the base class, in which case they override the original one.
+The ability to derive new classes from existing classes. A derived class (or "subclass") inherits the instance variables and methods of the "base class" (or "superclass"), and may add new instance variables and methods. New methods may be defined with the same names as those in the base class, in which case they override the original one.
+
++ Single Inheritance: A derived class inherits from _only one_ base class.
+
++ Multiple Inheritance: A derived class inherits from _two or more_ base classes.
+
++ MultiLevel Inheritance: A derived class inherits from another derived class.
+
++ Hierachical Inheritance: Multiple classes inherits from a single base class.
+
++ Hybrid Inheritance: A combination of two or more types of inheritance. 
 
 
 **Instance Variable:**
@@ -158,7 +168,7 @@ An instance of the data structure and behaviour defined by the object's class. E
 
 **Object Relationships:**
 
-refer to the different ways in which objects interact or are related to one another within a system. These relationships help define how objects collaborate and depend on each other in the context of the application's design.
+Refer to the different ways in which objects interact or are related to one another within a system. These relationships help define how objects collaborate and depend on each other in the context of the application's design.
 
 + Association: A general "uses-a" relationship between objects.
 
