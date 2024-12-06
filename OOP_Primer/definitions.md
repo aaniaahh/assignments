@@ -1,4 +1,4 @@
-# A04 - OOP Terminology
+# A04 - Basic OOP Terminology
 
 + Name: Aniah Myles
 
@@ -82,11 +82,11 @@ the ability to derive new classes from existing classes. A derived class (or "su
 Variables that are specific to an instance of a class.
 
 
-**Iterators:**
-Objects used to traverse elements in a collection.
-
 **Interfaces:**
 Define a contract for classes, specifying methods that **MUST** be implemented.
+
+**Iterators:**
+Objects used to traverse elements in a collection.
 
 
 **Member Variable:**
