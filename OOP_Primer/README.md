@@ -22,6 +22,10 @@ In this assignment I will be providing [definitions](https://github.com/aaniaahh
 
 - [ ] **Constructors:**
 
+- [ ] **Deep Copy**
+
+- [ ] **Derived Class**
+
 - [ ] **Design Patterns:**
 
 - [ ] **Destructors:**
@@ -66,6 +70,8 @@ In this assignment I will be providing [definitions](https://github.com/aaniaahh
 
 - [ ] **Overloading:**
 
+- [ ] **Pointer**
+
 - [ ] **Polymorphism:**
 
 - [ ] **Properties:**
@@ -77,6 +83,8 @@ In this assignment I will be providing [definitions](https://github.com/aaniaahh
 - [ ] **Protected:**
 
 - [ ] **Queues:**
+
+- [ ] **Shallow Copy**
 
 - [ ] **SOLID Principles:**
  

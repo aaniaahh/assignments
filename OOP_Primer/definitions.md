@@ -42,7 +42,14 @@ A design principle where objects are built by containing other objects, represen
 **Constructors:**
 A function provided by a class to initialise a newly created object. The constructor function typically has the same name as the class. It may take arguments, e.g. to set various attributes of the object or it may just leave everything undefined to be set elsewhere.
 
-**Design Patterns (e.g., Singleton, Factory, Observer):**
+
+**Deep Copy:**
+
+
+**Derived Class:**
+
+
+**Design Patterns:**
 Identifies classes and instances, their roles, collaborations and responsibilities. Each design pattern focuses on a particular object-oriented design problem or issue. It describes when it applies, whether it can be applied in the presence of other design constraints, and the consequences and trade-offs of its use.
 
 + Singleton: Ensures a class has only one instance.
@@ -144,11 +151,14 @@ Defining custom behavior for operators (e.g., +, ==) in a class.
 Use of a single symbol to represent operators with different argument types, used either, as a monadic operator to negate an expression, or as a dyadic operator to return the difference between two expressions. 
 
 
+**Pointer:**
+
+
 **Polymorphism:**
 The ability to present the same interface for different underlying data types.
 
-+ Compile-time polymorphism: Method overloading.
-+ Runtime polymorphism: Method overriding.
++ Static Polymorphism is resolved during compile-time also known as method overloading.
++ Dynamic Polymorphism is resolved during runtime also known as method overriding.
 
 
 **Properties:**
@@ -168,6 +178,9 @@ An access modifier that can be accessed within the same class or by a derived cl
 
 
 **Queues:**
+
+
+**Shallow Copy:**
 
 
 **SOLID Principles:**
