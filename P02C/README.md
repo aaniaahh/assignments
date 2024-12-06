@@ -24,3 +24,7 @@ The game KnuckleBones is a simple dice game that is played between two players o
 Click [here](https://github.com/aaniaahh/OOP/blob/main/assignments/P02C/main.cpp) for my Knucklebones main cpp file.
 
 Click [here](https://github.com/aaniaahh/OOP/blob/main/assignments/P02C/knucklebones.h) for my Knucklebones header file.
+
+### Resources:
+
+Professor's [Github](https://github.com/rugbyprof/2143-Object-Oriented-Programming/blob/master/Assignments/08-P02C/README.md)
