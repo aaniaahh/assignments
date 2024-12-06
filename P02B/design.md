@@ -97,27 +97,41 @@ Knucklebones IS-A Game (inheritance). It inherits general game functionality but
 The Knucklebones class inherits from the Game class since Knucklebones IS-A type of game with its own set of rules.
 - Composition:
 A Player HAS-A set of Dice (the player uses dice for rolling).
-
 The Game HAS-A set of Players (players participate in the game).
 
 ### 6. Keyword Categorization:
 - Necessary:
+
 score: Tracks the points each player accumulates.
+
 first name: To identify the player.
+
 winner: To determine the victor at the end of the game.
+
 player stats: Tracks performance data (e.g., wins/losses).
+
 userid: Identifies players in multiplayer or online contexts.
+
 diceSet: Required for rolling dice.
 
 - Possible:
+
 leaderboard: Shows rankings of players across games.
+
 high score: Tracks the highest score in a single game session.
+
 streak: Tracks the player's winning or losing streak.
+
 coins: Could be used as a reward system or currency in the game.
 
 - Wishful:
+
 chat: Allows players to communicate during gameplay.
+
 messaging: Sends messages between players or from the system.
+
 teams: Players can form teams.
+
 team stats: Track statistics for teams instead of individual players.
+
 levels: Introduce different difficulty levels for more complexity.
