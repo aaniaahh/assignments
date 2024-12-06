@@ -105,15 +105,16 @@ A Java term that allows classes and methods to operate on different data types w
 The ability to derive new classes from existing classes. A derived class (or "subclass") inherits the instance variables and methods of the "base class" (or "superclass"), and may add new instance variables and methods. New methods may be defined with the same names as those in the base class, in which case they override the original one.
 
 + Single Inheritance: A derived class inherits from _only one_ base class.
-
-''' class Animal {
+'''
+class Animal {
     public:
         void eat() { cout << "This animal eats food."; }
 };
 class Dog : public Animal {
     public:
         void bark() { cout << "The dog barks."; }
-}; '''
+};
+'''
 
 + Multiple Inheritance: A derived class inherits from _two or more_ base classes.
 
