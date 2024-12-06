@@ -8,7 +8,7 @@
 
 ## Definitions:
 
-**Abstract Classes:**
+### **Abstract Classes:**
 In object-oriented programming, a class designed only as a parent from which sub-classes MAY be derived, but which is not itself suitable for instantiation. Often used to "abstract out" incomplete sets of features which may then be shared by a group of sibling sub-classes which add different variations of the missing pieces.
 
 

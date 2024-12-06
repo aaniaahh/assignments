@@ -1,6 +1,6 @@
 # Assignment 4 - Basic OOP Terminology
 
-In this assignment I will be providing [definitions](https://github.com/aaniaahh/OOP/blob/main/assignments/A04/definitions.md) for OOP terms. And also giving examples for better understanding.
+In this assignment I will be providing [definitions](https://github.com/aaniaahh/OOP/blob/main/assignments/OOP_Primer/definitions.md) for OOP terms. And also giving examples for better understanding.
 
 ## Definitions:
 
