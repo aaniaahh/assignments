@@ -1,3 +1,5 @@
+## Class Design
+
 1. Dice Class
 Data:
 sides: Number of sides on the dice (default is 6 for standard dice).
