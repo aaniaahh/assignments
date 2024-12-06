@@ -2,7 +2,7 @@
 
 + Name: Aniah Myles
 
-+ Date: 12/06/2024
++ Date: 06 Dec. 2024
 
 + Class: 2143-102 OOP
 
@@ -44,10 +44,10 @@ A function provided by a class to initialise a newly created object. The constru
 
 
 **Deep Copy:**
-
+A copy operation where an object and all the objects it references are duplicated, creating a completely independent clone. Changes to the copied object do not affect the original.
 
 **Derived Class:**
-
+A class that inherits from a base class. It can extend or override functionality defined in the base class.
 
 **Design Patterns:**
 Identifies classes and instances, their roles, collaborations and responsibilities. Each design pattern focuses on a particular object-oriented design problem or issue. It describes when it applies, whether it can be applied in the presence of other design constraints, and the consequences and trade-offs of its use.
@@ -76,6 +76,7 @@ Operations for reading from and writing to files, often encapsulated in classes 
 
 **Friends:**
 A key term that is used to access private and protected members of another class.
+
 
 **Generics:**
 A Java term that allows classes and methods to operate on different data types without specifying the exact type at compile-time.
@@ -152,6 +153,7 @@ Use of a single symbol to represent operators with different argument types, use
 
 
 **Pointer:**
+A variable that stores the memory address of another variable. Commonly used in languages like C++ for dynamic memory allocation and manipulation.
 
 
 **Polymorphism:**
@@ -163,7 +165,6 @@ The ability to present the same interface for different underlying data types.
 
 **Properties:**
 Mechanisms to control access to attributes, often using getters and setters.
-
 
 
 **Private:**
@@ -180,9 +181,11 @@ An access modifier that can be accessed from anywhere.
 A virtual function with no implementation, forcing derived classes to provide implementation. 
 
 **Queues:**
+A collection that follows the First-In-First-Out (FIFO) principle, where elements are added to the rear and removed from the front.
 
 
 **Shallow Copy:**
+A copy operation where only the reference to the objects is copied, not the objects themselves. Changes to the referenced objects affect both the original and the copy.
 
 
 **SOLID Principles:**
@@ -200,6 +203,7 @@ A set of five principles for good object-oriented design introduced by Robert C.
 
 
 **Stacks:**
+A collection that follows the Last-In-First-Out (LIFO) principle, where the last element added to the stack is the first one to be removed. 
 
 
 **Static (Methods and Variables):**
@@ -224,6 +228,7 @@ Unified Modeling Language (UML) diagrams visually represent object-oriented syst
 
 **Virtual:**
 A keyword in C++ used to enable dynamic runtime method dispatch, supporting polymorphism. 
+
 
 **Virtual Function:**
 A memeber function that can be overridden in a derived class to provide specific implementation.
