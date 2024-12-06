@@ -112,7 +112,7 @@ The ability to derive new classes from existing classes. A derived class (or "su
 
 + Hierachical Inheritance: Multiple classes inherits from a single base class.
 
-+ Hybrid Inheritance: A combination of two or more types of inheritance. 
++ Hybrid Inheritance: A combination of two or more types of inheritance. It can often introduce complexities like the diamond problem, which we just try to avoids those.
 
 
 **Instance Variable:**
