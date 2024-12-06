@@ -106,26 +106,6 @@ The ability to derive new classes from existing classes. A derived class (or "su
 
 + Single Inheritance: A derived class inherits from _only one_ base class.
 
-'''cpp
-
-#include <iostream>
-using namespace std;
-
-class Animal 
-{
-    public:  
-
-        void eat() { cout << "This animal eats food."; }
-
-};
-class Dog : public Animal 
-{
-    public:
-
-        void bark() { cout << "The dog barks."; }
-
-};
-'''''
 
 + Multiple Inheritance: A derived class inherits from _two or more_ base classes.
 
