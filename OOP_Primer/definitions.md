@@ -158,6 +158,7 @@ Mechanisms to control access to attributes, often using getters and setters.
 **Public:**
 An access modifier that can be accessed from anywhere.
 
+
 **Private:**
 An access modifier that can **only** be accessed within the class.
 
@@ -165,7 +166,8 @@ An access modifier that can **only** be accessed within the class.
 **Protected:**
 An access modifier that can be accessed within the same class or by a derived class.
 
-**Rule of Three:**
+
+**Queues:**
 
 
 **SOLID Principles:**
@@ -182,8 +184,12 @@ A set of five principles for good object-oriented design introduced by Robert C.
 + **D**ependency Inversion: High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions.
 
 
+**Stacks:**
+
+
 **Static (Methods and Variables):**
 Static Members: Belong to the class rather than instances of the class. They can be accessed without creating an object.
+
 
 **Templates:**
 A C++ term that provides a similar functionality, enabling code reuse for multiple data types.
@@ -191,6 +197,7 @@ A C++ term that provides a similar functionality, enabling code reuse for multip
 
 **Test-Driven Development:**
 Writing tests before writing code.
+
 
 **Unit Testing:**
 Testing individual components.

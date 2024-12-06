@@ -76,8 +76,12 @@ In this assignment I will be providing [definitions](https://github.com/aaniaahh
 
 - [ ] **Protected:**
 
+- [ ] **Queues:**
+
 - [ ] **SOLID Principles:**
  
+- [ ] **Stacks:**
+
 - [ ] **Static:**
 
 - [ ] **Templates:**
