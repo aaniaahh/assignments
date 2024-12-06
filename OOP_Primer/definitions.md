@@ -106,20 +106,55 @@ The ability to derive new classes from existing classes. A derived class (or "su
 
 + Single Inheritance: A derived class inherits from _only one_ base class.
 
+```cpp
+class Animal {
+    public:
+        void eat() { cout << "This animal eats food."; }
+};
+class Dog : public Animal {
+    public:
+        void bark() { cout << "The dog barks."; }
+};
+
+```
+
 + Multiple Inheritance: A derived class inherits from _two or more_ base classes.
+
+```cpp
+class A { /* ... */ };
+class B { /* ... */ };
+class C : public A, public B { /* ... */ };
+
+```
 
 + MultiLevel Inheritance: A derived class inherits from another derived class.
 
+```cpp
+class A { /* ... */ };
+class B : public A { /* ... */ };
+class C : public B { /* ... */ };
+
+```
+
 + Hierachical Inheritance: Multiple classes inherits from a single base class.
+
+```cpp
+class A { /* ... */ };
+class B : public A { /* ... */ };
+class C : public A { /* ... */ };
+
+```
 
 + Hybrid Inheritance: A combination of two or more types of inheritance. It can often introduce complexities like the diamond problem, which we just try to avoids those.
 
-
 ```cpp
-class Hero{};
+class A { /* ... */ };
+class B : public A { /* ... */ };
+class C : public A { /* ... */ };
+class D : public B, public C { /* ... */ };
 
-int a = 5;
 ```
+
 
 **Instance Variable:**
 
