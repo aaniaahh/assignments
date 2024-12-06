@@ -108,12 +108,18 @@ The ability to derive new classes from existing classes. A derived class (or "su
 
 ''' bash
 class Animal {
+
     public:
+
         void eat() { cout << "This animal eats food."; }
+
 };
 class Dog : public Animal {
+
     public:
+
         void bark() { cout << "The dog barks."; }
+        
 };
 '''
 
