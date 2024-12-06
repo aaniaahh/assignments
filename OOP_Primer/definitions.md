@@ -63,7 +63,7 @@ A function provided by a class in C++ and some other object-oriented languages t
 
 
 **Encapsulation:**
-The ability to provide users with a well-defined interface to a set of functions in a way which hides their internal workings. In object-oriented programming, the technique of keeping together data structures and the methods which act on them.
+In object-oriented programming, the technique of keeping together data structures and the methods which act on them.
 
 
 **Exception Handling:**
@@ -144,7 +144,7 @@ A design method in which a system is modelled as a collection of cooperating obj
 
 
 **Operator Overloading:**
-Defining custom behavior for operators (e.g., +, ==) in a class.
+The ability to define or alter custom behavior for operators (e.g., +, ==) in a class.
 
 
 **Overloading:**
@@ -165,9 +165,6 @@ The ability to present the same interface for different underlying data types.
 Mechanisms to control access to attributes, often using getters and setters.
 
 
-**Public:**
-An access modifier that can be accessed from anywhere.
-
 
 **Private:**
 An access modifier that can **only** be accessed within the class.
@@ -176,6 +173,11 @@ An access modifier that can **only** be accessed within the class.
 **Protected:**
 An access modifier that can be accessed within the same class or by a derived class.
 
+**Public:**
+An access modifier that can be accessed from anywhere.
+
+**Pure Virtual Function:**
+A virtual function with no implementation, forcing derived classes to provide implementation. 
 
 **Queues:**
 
@@ -221,6 +223,9 @@ Unified Modeling Language (UML) diagrams visually represent object-oriented syst
 
 
 **Virtual:**
-A keyword in C++ used to enable dynamic runtime method dispatch, supporting polymorphism.
+A keyword in C++ used to enable dynamic runtime method dispatch, supporting polymorphism. 
+
+**Virtual Function:**
+A memeber function that can be overridden in a derived class to provide specific implementation.
 
 

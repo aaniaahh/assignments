@@ -4,104 +4,107 @@ In this assignment I will be providing [definitions](https://github.com/aaniaahh
 
 ## Definitions:
 
-- [ ] **Abstract Classes:**
+- [ ] **Abstract Classes**
 
-- [ ] **Abstraction:**
+- [ ] **Abstraction**
 
-- [ ] **Access Modifiers:**
+- [ ] **Access Modifiers**
 
-- [ ] **Attributes:**
+- [ ] **Attributes**
 
-- [ ] **Class Variable:**
+- [ ] **Class Variable**
 
-- [ ] **Classes:**
+- [ ] **Classes**
 
 - [ ] **Collections**
 
-- [ ] **Composition:**
+- [ ] **Composition**
 
-- [ ] **Constructors:**
+- [ ] **Constructors**
 
 - [ ] **Deep Copy**
 
 - [ ] **Derived Class**
 
-- [ ] **Design Patterns:**
+- [ ] **Design Patterns**
 
-- [ ] **Destructors:**
+- [ ] **Destructors**
 
-- [ ] **Encapsulation:**
+- [ ] **Encapsulation**
 
-- [ ] **Exception Handling:**
+- [ ] **Exception Handling**
 
-- [ ] **File I/O in OOP:**
+- [ ] **File I/O in OOP**
 
-- [ ] **Friends:**
+- [ ] **Friends**
 
-- [ ] **Generics:**
+- [ ] **Generics**
 
-- [ ] **Inheritance:**
+- [ ] **Inheritance**
 
-- [ ] **Instance Variable:**
+- [ ] **Instance Variable**
 
-- [ ] **Interfaces:**
+- [ ] **Interfaces**
 
-- [ ] **Iterators:**
+- [ ] **Iterators**
 
-- [ ] **Member Variable:**
+- [ ] **Member Variable**
 
-- [ ] **Memory Management:**
+- [ ] **Memory Management**
 
-- [ ] **Method Overloading:**
+- [ ] **Method Overloading**
 
-- [ ] **Method:**
+- [ ] **Method**
 
-- [ ] **Multiple Inheritance:**
+- [ ] **Multiple Inheritance**
 
-- [ ] **Multithreading in OOP:**
+- [ ] **Multithreading in OOP**
 
-- [ ] **Objects:**
+- [ ] **Objects**
 
-- [ ] **Object Relationships:**
+- [ ] **Object Relationships**
 
-- [ ] **Object-Oriented Design Principles:**
+- [ ] **Object-Oriented Design Principles**
 
-- [ ] **Operator Overloading:**
+- [ ] **Operator Overloading**
 
-- [ ] **Overloading:**
+- [ ] **Overloading**
 
 - [ ] **Pointer**
 
-- [ ] **Polymorphism:**
+- [ ] **Polymorphism**
 
-- [ ] **Properties:**
+- [ ] **Properties**
 
-- [ ] **Public:**
+- [ ] **Private**
 
-- [ ] **Private:**
+- [ ] **Protected**
 
-- [ ] **Protected:**
+- [ ] **Public**
 
-- [ ] **Queues:**
+- [ ] **Pure Virtual Function**
+
+- [ ] **Queues**
 
 - [ ] **Shallow Copy**
 
-- [ ] **SOLID Principles:**
+- [ ] **SOLID Principles**
  
-- [ ] **Stacks:**
+- [ ] **Stacks**
 
-- [ ] **Static:**
+- [ ] **Static**
 
-- [ ] **Templates:**
+- [ ] **Templates**
 
-- [ ] **Test-Driven Development:**
+- [ ] **Test-Driven Development**
 
-- [ ] **Unit Testing:**
+- [ ] **Unit Testing**
 
-- [ ] **UML Diagrams and Modeling:**
+- [ ] **UML Diagrams and Modeling**
 
-- [ ] **Virtual:**
+- [ ] **Virtual**
 
+- [ ] **Virtual Function**
 
 
 
