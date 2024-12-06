@@ -107,6 +107,7 @@ The ability to derive new classes from existing classes. A derived class (or "su
 + Single Inheritance: A derived class inherits from _only one_ base class.
 
 '
+
 class Animal 
 {
     public:  
@@ -121,6 +122,7 @@ class Dog : public Animal
         void bark() { cout << "The dog barks."; }
 
 };
+
 '
 
 + Multiple Inheritance: A derived class inherits from _two or more_ base classes.
