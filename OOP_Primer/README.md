@@ -4,12 +4,6 @@ In this assignment I will be providing [definitions](https://github.com/aaniaahh
 
 # Assignment 4 - Basic OOP Terminology
 
-+ Name: Aniah Myles
-
-+ Date: 12/06/2024
-
-+ Class: 2143-102 OOP
-
 ## Definitions:
 
 - [ ] **Abstract Classes:**
