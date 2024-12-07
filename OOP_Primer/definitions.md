@@ -47,22 +47,81 @@ The process of hiding implementation details and showing only the necessary feat
 
 ```cpp
 
+class Example {
+private:
+    int privateValue;  // Accessible only within this class
+
+protected:
+    int protectedValue;  // Accessible in derived classes
+
+public:
+    int publicValue;  // Accessible from anywhere
+};
+
 ```
 
 **Attributes:**
 
 Characteristics of an object, often represented as class variables.
 
+```cpp
+
+using namespace std;
+
+class Dog {
+public:
+    string name;
+    int age;
+};
+
+```
 
 **Class Variable:**
 
 A variable that is shared among all instances of a class. Defined using the * *static* * keyword in many programming languages.
 
 
+
 **Class:**
 
  The prototype for an object in an object-oriented language; analogous to a derived type in a procedural language. A class may also be considered to be a set of objects which share a common structure and behaviour. The structure of a class is determined by the class variables which represent the state of an object of that class and the behaviour is given by a set of methods associated with the class.
 
+```cpp
+
+#ifndef RECTANGLE_H // Include guard to prevent multiple inclusions
+#define RECTANGLE_H
+
+class Rectangle {
+private:
+    double length; // Length of the rectangle
+    double width;  // Width of the rectangle
+
+public:
+    // Default constructor
+    Rectangle();
+
+    // Parameterized constructor
+    Rectangle(double len, double wid);
+
+    // Destructor
+    ~Rectangle();
+
+    // Setters
+    void setLength(double len);
+    void setWidth(double wid);
+
+    // Getters
+    double getLength() const;
+    double getWidth() const;
+
+    // Member functions
+    double calculateArea() const;
+    double calculatePerimeter() const;
+};
+
+#endif // RECTANGLE_H
+
+```
 
 **Collections**
 
@@ -72,6 +131,28 @@ A variable that is shared among all instances of a class. Defined using the * *s
 **Composition:**
 
 A design principle where objects are built by containing other objects, representing a **"has-a"** relationship.
+
+```cpp
+
+using namespace std;
+
+class Engine {
+public:
+    void start() { 
+        
+        cout << "Engine started\n"; }
+};
+
+class Car {
+private:
+    Engine engine; // Car "has-a" Engine
+public:
+    void startCar() {
+        
+         engine.start(); }
+};
+
+```
 
 **Concrete Class:**
 
@@ -106,14 +187,60 @@ public:
 
 A function provided by a class to initialise a newly created object. The constructor function typically has the same name as the class. It may take arguments, e.g. to set various attributes of the object or it may just leave everything undefined to be set elsewhere.
 
++ Copy Constructor: A constructor that creates a new object as a copy of an existing object. It is used when an object is initialized from another object of the same type.
+
++ Default Constructor: A constructor that does not take any arguments (or all its parameters have default values). It initializes an object with default values.
+
++ Parameterized Constructor: A constructor that takes arguments to initialize an object with specific values.
+
+```cpp
+
+public:
+    // Default constructor
+    Rectangle();
+
+    // Parameterized constructor
+    Rectangle(double len, double wid);
+
+    // Copy Constructor
+    Rectangle(const Rectangle& other);
+
+```
 
 **Deep Copy:**
 
 A copy operation where an object and all the objects it references are duplicated, creating a completely independent clone. Changes to the copied object do not affect the original.
 
+```cpp
+
+using namespace std;
+
+class DeepCopyExample {
+    int* data;
+public:
+    DeepCopyExample(int value) {
+        data = new int(value);
+    }
+    DeepCopyExample(const DeepCopyExample& other) {
+        data = new int(*other.data);
+    }
+};
+
+```
+
 **Derived Class:**
 
 A class that inherits from a base class. It can extend or override functionality defined in the base class.
+
+```cpp
+class Base {
+public:
+    void greet() { std::cout << "Hello from Base\n"; }
+};
+
+class Derived : public Base {};
+
+```
 
 **Design Patterns:**
 
@@ -129,6 +256,12 @@ Identifies classes and instances, their roles, collaborations and responsibiliti
 
 A function provided by a class in C++ and some other object-oriented languages to delete an object, also know as the inverse of a constructor.
 
+```cpp
+
+public:
+ // Destructor
+    ~Rectangle();
+```
 
 **Encapsulation:**
 
@@ -154,6 +287,9 @@ A key term that is used to access private and protected members of another class
 
 A Java term that allows classes and methods to operate on different data types without specifying the exact type at compile-time.
 
+**Getter:**
+
+A term used in a class to retrieve values from the private attributes, ensuring encapsulation.
 
 **Inheritance:**
 
@@ -326,6 +462,9 @@ A collection that follows the First-In-First-Out (FIFO) principle, where element
 
 A copy operation where only the reference to the objects is copied, not the objects themselves. Changes to the referenced objects affect both the original and the copy.
 
+**Setter:**
+
+A term used in a class to set values, ensuring encapsulation.
 
 **SOLID Principles:**
 
