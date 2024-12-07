@@ -78,12 +78,6 @@ In this assignment I will be providing [definitions](https://github.com/aaniaahh
 
 - [ ] **Properties**
 
-- [ ] **Private**
-
-- [ ] **Protected**
-
-- [ ] **Public**
-
 - [ ] **Pure Virtual Function**
 
 - [ ] **Queues**

@@ -39,6 +39,16 @@ The process of hiding implementation details and showing only the necessary feat
 
  A keyword that determines the visibility or accessibility of a class, method, variable, or other members in object-oriented programming. It controls where and how a particular class or member can be accessed, either within the same class, subclass, or from other classes or packages.
 
+ + Private: An access modifier that can **only** be accessed within the class.
+
+ + Protected: An access modifier that can be accessed within the same class or by a derived class.
+
+ + Public: An access modifier that can be accessed from anywhere.
+
+```cpp
+
+```
+
 **Attributes:**
 
 Characteristics of an object, often represented as class variables.
@@ -297,20 +307,6 @@ The ability to present the same interface for different underlying data types.
 
 Mechanisms to control access to attributes, often using getters and setters.
 
-
-**Private:**
-
-An access modifier that can **only** be accessed within the class.
-
-
-**Protected:**
-
-An access modifier that can be accessed within the same class or by a derived class.
-
-**Public:**
-
-An access modifier that can be accessed from anywhere.
-
 **Pure Virtual Function:**
 
 A virtual function with no implementation, forcing derived classes to provide implementation. 
@@ -318,6 +314,11 @@ A virtual function with no implementation, forcing derived classes to provide im
 **Queues:**
 
 A collection that follows the First-In-First-Out (FIFO) principle, where elements are added to the rear and removed from the front.
+
++ Key words
+ + Enqueue: a term used to add items to the front (looks like the rear) of the queue
+
+ + Dequeue: a term used that removes and returns items from the front of the queue
 
 ![queues](https://github.com/aaniaahh/OOP/blob/main/assignments/OOP_Primer/queue.jpg)
 
@@ -344,6 +345,10 @@ A set of five principles for good object-oriented design introduced by Robert C.
 **Stacks:**
 
 A collection that follows the Last-In-First-Out (LIFO) principle, where the last element added to the stack is the first one to be removed. 
+
++ Pop: A term used to remove the top item from the stack, unless the stack is empty.
+
++ Push: A term used to push items onto the top of the stack, unless the stack is full.
 
 ![stacks](https://github.com/aaniaahh/OOP/blob/main/assignments/OOP_Primer/stack.jpg)
 
