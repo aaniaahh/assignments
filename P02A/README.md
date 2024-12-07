@@ -12,6 +12,6 @@ Files : Description
 
 [nCurses.cpp](https://github.com/aaniaahh/OOP/blob/main/assignments/P02A/hello_ncurses.cpp) : This file was used to show that nCurses was downloaded successfully.
 
-### Screenshot proof:
+### Screenshot Proof:
 
 ![](./img/img.png)
