@@ -2,6 +2,8 @@
 
 The game KnuckleBones is a simple dice game that is played between two players on a 3x3 grid. The goal is to place dice on the grid and score more points than your opponent by following a few key rules. **(Project put on pause)!**
 
+**Be sure** _[nCurses](https://github.com/aaniaahh/OOP/tree/main/assignments/P02A)_ **are installed before attempting to use this code**
+
 ### Here are brief breakdowns of the key rules:
 1. Two Players: The game is played between two players, each with their own 3x3 grid.
 
