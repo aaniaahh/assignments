@@ -8,11 +8,11 @@
 
 ## Definitions:
 
-**Abstraction:**
+### **Abstraction:**
 
 The process of hiding implementation details and showing only the necessary features of an object. It simplifies complexity by providing a clear interface.
 
-**Abstract Classes:**
+### **Abstract Classes:**
 
 In object-oriented programming, a class designed only as a parent from which sub-classes MAY be derived, but which is not itself suitable for instantiation. Often used to "abstract out" incomplete sets of features which may then be shared by a group of sibling sub-classes which add different variations of the missing pieces. It can also be noticed if the class has at least one pure virtual function.
 
@@ -34,11 +34,11 @@ public:
 
 ```
 
-**Access Modifiers:**
+### **Access Modifiers:**
 
  A keyword that determines the visibility or accessibility of a class, method, variable, or other members in object-oriented programming. It controls where and how a particular class or member can be accessed, either within the same class, subclass, or from other classes or packages.
 
- + Private: An access modifier that can **only** be accessed within the class.
+ + Private: An access modifier that can ### **only### ** be accessed within the class.
 
  + Protected: An access modifier that can be accessed within the same class or by a derived class.
 
@@ -62,7 +62,7 @@ public:
 
 ```
 
-**Attributes:**
+### **Attributes:**
 
 Characteristics of an object, often represented as class variables.
 
@@ -79,7 +79,7 @@ public:
 
 ```
 
-**Class:**
+### **Class:**
 
  The prototype for an object in an object-oriented language; analogous to a derived type in a procedural language. A class may also be considered to be a set of objects which share a common structure and behaviour. The structure of a class is determined by the class variables which represent the state of an object of that class and the behaviour is given by a set of methods associated with the class.
 
@@ -123,22 +123,22 @@ public:
 
 ```
 
-**Class Variable:**
+### **Class Variable:**
 
 A variable that is shared among all instances of a class.
 
 ![classVariable](https://github.com/aaniaahh/OOP/blob/main/assignments/OOP_Primer/images/classVariables.jpg)
 
-**Collections:**
+### **Collections:**
 
  Containers used to store and manage groups of related objects.
 
 + Examples of Collections: arrays, class, lists, sets, tree, and etc.
 
 
-**Composition:**
+### **Composition:**
 
-A design principle where objects are built by containing other objects, representing a **"has-a"** relationship.
+A design principle where objects are built by containing other objects, representing a ### **"has-a"### ** relationship.
 
 ```cpp
 
@@ -163,7 +163,7 @@ public:
 
 ```
 
-**Concrete Class:**
+### **Concrete Class:**
 
 A class that can be instantiated to create objects and ssed to define fully implemented behavior for objects.
 
@@ -191,7 +191,7 @@ public:
 
 ```
 
-**Constructors:**
+### **Constructors:**
 
 A function provided by a class to initialise a newly created object. The constructor function typically has the same name as the class. It may take arguments, e.g. to set various attributes of the object or it may just leave everything undefined to be set elsewhere.
 
@@ -220,7 +220,7 @@ public:
 
 ```
 
-**Deep Copy:**
+### **Deep Copy:**
 
 A copy operation where an object and all the objects it references are duplicated, creating a completely independent clone. Changes to the copied object do not affect the original.
 
@@ -242,7 +242,7 @@ public:
 
 ```
 
-**Derived Class:**
+### **Derived Class:**
 
 A class that inherits from a base class. It can extend or override functionality defined in the base class.
 
@@ -260,7 +260,7 @@ class Derived : public Base {};
 
 ```
 
-**Design Patterns:**
+### **Design Patterns:**
 
 Identifies classes and instances, their roles, collaborations and responsibilities. Each design pattern focuses on a particular object-oriented design problem or issue. It describes when it applies, whether it can be applied in the presence of other design constraints, and the consequences and trade-offs of its use.
 
@@ -270,7 +270,7 @@ Identifies classes and instances, their roles, collaborations and responsibiliti
 
 + Observer: Defines a dependency where objects get notified of changes.
 
-**Destructors:**
+### **Destructors:**
 
 A function provided by a class in C++ and some other object-oriented languages to delete an object, also know as the inverse of a constructor.
 
@@ -286,13 +286,13 @@ public:
     ~Rectangle();
 ```
 
-**Encapsulation:**
+### **Encapsulation:**
 
 In object-oriented programming, the technique of keeping together data structures and the methods which act on them.
 
 ![encapsulation](https://github.com/aaniaahh/OOP/blob/main/assignments/OOP_Primer/images/encapsulation.jpg)
 
-**Exception Handling:**
+### **Exception Handling:**
 
 Mechanisms to handle runtime errors and if the programmer does not provide a handler for a given exception, a built-in system exception handler will usually be called resulting in abortion of the program run and some kind of error indication being returned to the user.
 
@@ -317,13 +317,13 @@ catch( ExceptionName e1 )  {
 
 ```
 
-**File I/O in OOP:**
+### **File I/O in OOP:**
 
 Operations for reading from and writing to files, often encapsulated in classes to manage file handling.
 
 ![files](https://github.com/aaniaahh/OOP/blob/main/assignments/OOP_Primer/images/files.png)
 
-**Friends:**
+### **Friends:**
 
 A key term that is used to access private and protected members from its class, but it is not a member.
 
@@ -333,7 +333,7 @@ friend class className;    // declared in the base class
 
 ```
 
-**Generics:**
+### **Generics:**
 
 A Java term that allows classes and methods to operate on different data types without specifying the exact type at compile-time. The advantages of generics are code reusability, avoids function overloading, and once written it can be used for multiple times/cases.
 
@@ -341,7 +341,7 @@ In C++, generics are implemented bY using templates (simple, yet powerful tool).
 
 + Classes that holds an array, map, and etc can possibly use generics very efficiently.
 
-**Getter:**
+### **Getter:**
 
 A term used in a class to retrieve values from the private attributes, ensuring encapsulation.
 
@@ -355,7 +355,7 @@ using namespace std;
 
 ```
 
-**Inheritance:**
+### **Inheritance:**
 
 The ability to derive new classes from existing classes. A derived class (or "subclass") inherits the instance variables and methods of the "base class" (or "superclass"), and may add new instance variables and methods. New methods may be defined with the same names as those in the base class, in which case they override the original one.
 
@@ -431,7 +431,7 @@ class D : public B, public C { /* ... */ };
 ```
 
 
-**Instance Variable:**
+### **Instance Variable:**
 
 In C++, an instance variable (also called a member variable) is a variable that is associated with each instance of a class. It's declared inside the class definition, but outside any function.
 
@@ -467,9 +467,9 @@ int main() {
 
 ```
 
-**Interfaces:**
+### **Interfaces:**
 
-Define a contract for classes, specifying methods that **MUST** be implemented. With it typially implementing #include <iostream> using pure virtual classes.
+Define a contract for classes, specifying methods that ### **MUST### ** be implemented. With it typially implementing #include <iostream> using pure virtual classes.
 
 ```cpp
 
@@ -503,7 +503,7 @@ return 0;
 
 ```
 
-**Iterators:**
+### **Iterators:**
 
 An iterator in C++ is a pointer-like object that points to an element of the STL container. They are generally used to loop through the contents of the STL container in C++. The main advantage of STL iterators is that they make the STL algorithms independent of the type of container used. We can just pass the iterator to the container elements instead of the container itself to the STL algorithms.
 
@@ -527,7 +527,7 @@ int main() {
 
 ```
 
-**Memory Management:**
+### **Memory Management:**
 
 + Garbage Collection: Automatic memory cleanup in languages like Java or Python.
 
@@ -550,7 +550,7 @@ point_var = new int;
 
 ```
 
-**Method:**
+### **Method:**
 
 A function that is a member of a class and operates on the data members of the class and defines the behavior of the class's objects.
 
@@ -565,7 +565,7 @@ using namespace std;
 
 ```
 
-**Method Overloading:**
+### **Method Overloading:**
 
 Method overloading allows you to define multiple functions with the same name within the same scope, but with different parameters. The compiler determines which function to call based on the number and types of arguments passed.
 
@@ -600,7 +600,7 @@ int main() {
 
 ```
 
-**Multithreading in OOP:**
+### **Multithreading in OOP:**
 
 Sharing a single CPU between multiple tasks (or "threads") in a way designed to minimise the time required to switch threads. This is accomplished by sharing as much as possible of the program execution environment between the different threads so that very little state needs to be saved and restored when changing thread.
 _Be sure to #include <thread> at the top of your code_
@@ -608,7 +608,7 @@ _Be sure to #include <thread> at the top of your code_
 ![threading](https://raw.githubusercontent.com/aaniaahh/OOP/refs/heads/main/assignments/OOP_Primer/images/thread.webp)
 
 
-**Objects:**
+### **Objects:**
 
 An instance of the data structure and behavior defined by the object's class. Each object has its own values for the instance variables of its class and can respond to the methods defined by its class.
 
@@ -632,7 +632,7 @@ int main() {
 
 ```
 
-**Object Relationships:**
+### **Object Relationships:**
 
 Refer to the different ways in which objects interact or are related to one another within a system. These relationships help define how objects collaborate and depend on each other in the context of the application's design.
 
@@ -652,13 +652,13 @@ Refer to the different ways in which objects interact or are related to one anot
 
   - [ ] A dog _is a_ type of animal.
 
-**Object-Oriented Design Principles:**
+### **Object-Oriented Design Principles:**
 
 A design method in which a system is modelled as a collection of cooperating objects and individual objects are treated as instances of a class within a class hierarchy. Four stages can be identified: identify the classes and objects, identify their semantics, identify their relationships and specify class and object interfaces and implementation.
 
 + Type of OOP Principles: Abstraction, Encapsulations, Inheritance, and Polymorphism
 
-**Operator Overloading:**
+### **Operator Overloading:**
 
 The ability to define or alter custom behavior for operators (e.g., +, ==) in a class. For example, earlier this semester we did a [Fraction Class](https://github.com/aaniaahh/OOP/blob/main/assignments/P01/Fraction.cpp) that contained overloading operators.
 
@@ -686,7 +686,7 @@ The ability to define or alter custom behavior for operators (e.g., +, ==) in a 
     }
 ```
 
-**Overloading:**
+### **Overloading:**
 
 Use of a single symbol to represent operators with different argument types, used either, as a monadic operator to negate an expression, or as a dyadic operator to return the difference between two expressions. 
 
@@ -719,7 +719,7 @@ int main() {
 
 ```
 
-**Pointer:**
+### **Pointer:**
 
 A variable that stores the memory address of another variable. Commonly used in languages like C++ for dynamic memory allocation and manipulation.
 
@@ -743,7 +743,7 @@ int main() {
 
 ```
 
-**Polymorphism:**
+### **Polymorphism:**
 
 The ability to present the same interface for different underlying data types.
 
@@ -832,12 +832,12 @@ int main() {
 
 ```
 
-**Properties:**
+### **Properties:**
 
 Mechanisms to control access to attributes, often using getters and setters.
 
 
-**Queues:**
+### **Queues:**
 
 A collection that follows the First-In-First-Out (FIFO) principle, where elements are added to the rear and removed from the front.
 
@@ -847,7 +847,7 @@ A collection that follows the First-In-First-Out (FIFO) principle, where element
 
 ![queues](https://github.com/aaniaahh/OOP/blob/main/assignments/OOP_Primer/images/queue.jpg)
 
-**Shallow Copy:**
+### **Shallow Copy:**
 
 A copy operation where only the reference to the objects is copied, not the objects themselves. Changes to the referenced objects affect both the original and the copy.
 
@@ -890,7 +890,7 @@ int main() {
 
 ```
 
-**Setter:**
+### **Setter:**
 
 A term used in a class to set values, ensuring encapsulation.
 
@@ -904,22 +904,22 @@ using namespace std;
     void setWidth(double wid);
 ```
 
-**SOLID Principles:**
+### **SOLID Principles:**
 
 A set of five principles for good object-oriented design introduced by Robert C. Martin:
 
-+ **S**ingle Responsibility: A class should have only one reason to change, meaning it should have only one job or responsibility.
++ ### **S### **ingle Responsibility: A class should have only one reason to change, meaning it should have only one job or responsibility.
 
-+ **O**pen/Closed: Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification.
++ ### **O### **pen/Closed: Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification.
 
-+ **L**iskov Substitution: Objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
++ ### **L### **iskov Substitution: Objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
 
-+ **I**nterface Segregation: A client should not be forced to depend on interfaces it does not use.
++ ### **I### **nterface Segregation: A client should not be forced to depend on interfaces it does not use.
 
-+ **D**ependency Inversion: High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions.
++ ### **D### **ependency Inversion: High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions.
 
 
-**Stacks:**
+### **Stacks:**
 
 A collection that follows the Last-In-First-Out (LIFO) principle, where the last element added to the stack is the first one to be removed. 
 
@@ -930,7 +930,7 @@ A collection that follows the Last-In-First-Out (LIFO) principle, where the last
 ![stacks](https://github.com/aaniaahh/OOP/blob/main/assignments/OOP_Primer/images/stack.jpg)
 
 
-**Static (Methods and Variables):**
+### **Static (Methods and Variables):**
 
 Static Members: Belong to the class rather than instances of the class. They can be accessed without creating an object.
 
@@ -960,7 +960,7 @@ int main() {
 
 ```
 
-**Templates:**
+### **Templates:**
 
 A C++ term that provides a similar functionality, enabling code reuse for multiple data types.
 
@@ -988,25 +988,25 @@ int main() {
 
 ```
 
-**Test-Driven Development:**
+### **Test-Driven Development:**
 
 Writing tests before writing code.
 
 ![Development](https://github.com/aaniaahh/OOP/blob/main/assignments/OOP_Primer/images/testDevelopment.png)
 
-**Unit Testing:**
+### **Unit Testing:**
 
 Testing individual components.
 
 ![Unit Testing](https://github.com/aaniaahh/OOP/blob/main/assignments/OOP_Primer/images/unitTest.png)
 
-**UML Diagrams and Modeling:**
+### **UML Diagrams and Modeling:**
 
 Unified Modeling Language (UML) diagrams visually represent object-oriented systems, including class diagrams, sequence diagrams, etc.
  
 ![UML](https://github.com/aaniaahh/OOP/blob/main/assignments/OOP_Primer/images/umlDiagrams.webp)
 
-**Virtual Function:**
+### **Virtual Function:**
 
 A memeber function that can be overridden in a derived class to provide specific implementation.
 + _Virtual_ is a keyword in C++ used to enable dynamic runtime method dispatch, supporting polymorphism.
