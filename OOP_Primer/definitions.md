@@ -319,7 +319,7 @@ A virtual function with no implementation, forcing derived classes to provide im
 
 A collection that follows the First-In-First-Out (FIFO) principle, where elements are added to the rear and removed from the front.
 
-![queue.png]
+
 
 **Shallow Copy:**
 
