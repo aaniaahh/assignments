@@ -8,6 +8,10 @@
 
 ## Definitions:
 
+**Abstraction:**
+
+The process of hiding implementation details and showing only the necessary features of an object. It simplifies complexity by providing a clear interface.
+
 **Abstract Classes:**
 
 In object-oriented programming, a class designed only as a parent from which sub-classes MAY be derived, but which is not itself suitable for instantiation. Often used to "abstract out" incomplete sets of features which may then be shared by a group of sibling sub-classes which add different variations of the missing pieces. It can also be noticed if the class has at least one pure virtual function.
@@ -29,11 +33,6 @@ public:
 };
 
 ```
-
-**Abstraction:**
-
-The process of hiding implementation details and showing only the necessary features of an object. It simplifies complexity by providing a clear interface.
-
 
 **Access Modifiers:**
 
@@ -123,9 +122,11 @@ A variable that is shared among all instances of a class. Defined using the * *s
 
 ![classVariable](https://github.com/aaniaahh/OOP/blob/main/assignments/OOP_Primer/images/classVariables.jpg)
 
-**Collections**
+**Collections:**
 
- Containers used to store and manage groups of related objects (e.g., lists, sets).
+ Containers used to store and manage groups of related objects.
+
++ Examples of Collections: arrays, class, lists, sets, tree, and etc.
 
 
 **Composition:**
@@ -193,6 +194,8 @@ A function provided by a class to initialise a newly created object. The constru
 
 + Parameterized Constructor: A constructor that takes arguments to initialize an object with specific values.
 
+_If you could spot functions with the same name as the class, you've found the constructors of that class._
+
 ```cpp
 
 public:
@@ -256,6 +259,8 @@ Identifies classes and instances, their roles, collaborations and responsibiliti
 
 A function provided by a class in C++ and some other object-oriented languages to delete an object, also know as the inverse of a constructor.
 
+_If you can spot a '~' function in a class, you've found some type of destructor._
+
 ```cpp
 
 public:
@@ -266,6 +271,7 @@ public:
 **Encapsulation:**
 
 In object-oriented programming, the technique of keeping together data structures and the methods which act on them.
+
 
 
 **Exception Handling:**

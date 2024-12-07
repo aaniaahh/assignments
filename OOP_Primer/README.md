@@ -4,9 +4,9 @@ In this assignment I will be providing [definitions](https://github.com/aaniaahh
 
 ## Definitions:
 
-- [ ] **Abstract Classes**
-
 - [ ] **Abstraction**
+
+- [ ] **Abstract Classes**
 
 - [ ] **Access Modifiers**
 
@@ -106,4 +106,8 @@ In this assignment I will be providing [definitions](https://github.com/aaniaahh
 
 
 ## Resources:
+
+[Some of the codes](https://www.geeksforgeeks.org/)
 [Some of the definitions](https://www.computer-dictionary-online.org/)
+[Some of the information](https://pwskills.com/blog/data-structures-in-c/)
+[Some of the inspo](https://github.com/rugbyprof/2143-Object-Oriented-Programming/wiki/Classes-and-Objects)
