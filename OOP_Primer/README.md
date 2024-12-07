@@ -50,8 +50,6 @@ In this assignment I will be providing [definitions](https://github.com/aaniaahh
 
 - [ ] **Iterators**
 
-- [ ] **Member Variable**
-
 - [ ] **Memory Management**
 
 - [ ] **Method Overloading**
@@ -78,8 +76,6 @@ In this assignment I will be providing [definitions](https://github.com/aaniaahh
 
 - [ ] **Properties**
 
-- [ ] **Pure Virtual Function**
-
 - [ ] **Queues**
 
 - [ ] **Shallow Copy**
@@ -98,8 +94,6 @@ In this assignment I will be providing [definitions](https://github.com/aaniaahh
 
 - [ ] **UML Diagrams and Modeling**
 
-- [ ] **Virtual**
-
 - [ ] **Virtual Function**
 
 
@@ -110,4 +104,5 @@ In this assignment I will be providing [definitions](https://github.com/aaniaahh
 [Some of the codes](https://www.geeksforgeeks.org/)
 [Some of the definitions](https://www.computer-dictionary-online.org/)
 [Some of the information](https://pwskills.com/blog/data-structures-in-c/)
+[Some of the other information](https://techvidvan.com/)
 [Some of the inspo](https://github.com/rugbyprof/2143-Object-Oriented-Programming/wiki/Classes-and-Objects)
