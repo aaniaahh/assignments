@@ -319,7 +319,7 @@ A virtual function with no implementation, forcing derived classes to provide im
 
 A collection that follows the First-In-First-Out (FIFO) principle, where elements are added to the rear and removed from the front.
 
-
+![queues](https://github.com/aaniaahh/OOP/blob/main/assignments/OOP_Primer/queue.jpg)
 
 **Shallow Copy:**
 
@@ -345,6 +345,7 @@ A set of five principles for good object-oriented design introduced by Robert C.
 
 A collection that follows the Last-In-First-Out (LIFO) principle, where the last element added to the stack is the first one to be removed. 
 
+![stacks](https://github.com/aaniaahh/OOP/blob/main/assignments/OOP_Primer/stack.jpg)
 
 **Static (Methods and Variables):**
 
