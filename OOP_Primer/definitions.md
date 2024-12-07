@@ -28,40 +28,6 @@ public:
     virtual ~Shape() {}
 };
 
-// Concrete class: Rectangle
-class Rectangle : public Shape {
-private:
-    double width, height;
-
-public:
-    Rectangle(double w, double h) : width(w), height(h) {}
-
-    double area() const override {
-        return width * height;
-    }
-
-    double perimeter() const override {
-        return 2 * (width + height);
-    }
-};
-
-// Concrete class: Circle
-class Circle : public Shape {
-private:
-    double radius;
-
-public:
-    Circle(double r) : radius(r) {}
-
-    double area() const override {
-        return M_PI * radius * radius;
-    }
-
-    double perimeter() const override {
-        return 2 * M_PI * radius;
-    }
-};
-
 ```
 
 **Abstraction:**
@@ -353,6 +319,7 @@ A virtual function with no implementation, forcing derived classes to provide im
 
 A collection that follows the First-In-First-Out (FIFO) principle, where elements are added to the rear and removed from the front.
 
+![queue.png]
 
 **Shallow Copy:**
 
