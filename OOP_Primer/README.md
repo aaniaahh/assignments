@@ -12,9 +12,9 @@ In this assignment I will be providing [definitions](https://github.com/aaniaahh
 
 - [ ] **Attributes**
 
-- [ ] **Class Variable**
+- [ ] **Class**
 
-- [ ] **Classes**
+- [ ] **Class Variable**
 
 - [ ] **Collections**
 

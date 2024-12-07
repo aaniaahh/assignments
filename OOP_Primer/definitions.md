@@ -76,12 +76,6 @@ public:
 
 ```
 
-**Class Variable:**
-
-A variable that is shared among all instances of a class. Defined using the * *static* * keyword in many programming languages.
-
-
-
 **Class:**
 
  The prototype for an object in an object-oriented language; analogous to a derived type in a procedural language. A class may also be considered to be a set of objects which share a common structure and behaviour. The structure of a class is determined by the class variables which represent the state of an object of that class and the behaviour is given by a set of methods associated with the class.
@@ -122,6 +116,12 @@ public:
 #endif // RECTANGLE_H
 
 ```
+
+**Class Variable:**
+
+A variable that is shared among all instances of a class. Defined using the * *static* * keyword in many programming languages.
+
+![classVariable](https://github.com/aaniaahh/OOP/blob/main/assignments/OOP_Primer/images/classVariables.jpg)
 
 **Collections**
 
@@ -456,7 +456,7 @@ A collection that follows the First-In-First-Out (FIFO) principle, where element
 
  + Dequeue: a term used that removes and returns items from the front of the queue
 
-![queues](https://github.com/aaniaahh/OOP/blob/main/assignments/OOP_Primer/queue.jpg)
+![queues](https://github.com/aaniaahh/OOP/blob/main/assignments/OOP_Primer/images/queue.jpg)
 
 **Shallow Copy:**
 
@@ -489,7 +489,7 @@ A collection that follows the Last-In-First-Out (LIFO) principle, where the last
 
 + Push: A term used to push items onto the top of the stack, unless the stack is full.
 
-![stacks](https://github.com/aaniaahh/OOP/blob/main/assignments/OOP_Primer/stack.jpg)
+![stacks](https://github.com/aaniaahh/OOP/blob/main/assignments/OOP_Primer/images/stack.jpg)
 
 **Static (Methods and Variables):**
 
