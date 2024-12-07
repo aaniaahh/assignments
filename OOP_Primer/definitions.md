@@ -10,8 +10,59 @@
 
 **Abstract Classes:**
 
-In object-oriented programming, a class designed only as a parent from which sub-classes MAY be derived, but which is not itself suitable for instantiation. Often used to "abstract out" incomplete sets of features which may then be shared by a group of sibling sub-classes which add different variations of the missing pieces.
+In object-oriented programming, a class designed only as a parent from which sub-classes MAY be derived, but which is not itself suitable for instantiation. Often used to "abstract out" incomplete sets of features which may then be shared by a group of sibling sub-classes which add different variations of the missing pieces. It can also be noticed if the class has at least one pure virtual function.
 
+```cpp
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+// Abstract class
+class Shape {
+public:
+    // Pure virtual functions
+    virtual double area() const = 0;        // Calculate the area
+    virtual double perimeter() const = 0;  // Calculate the perimeter
+
+    // Virtual destructor (important for base classes)
+    virtual ~Shape() {}
+};
+
+// Concrete class: Rectangle
+class Rectangle : public Shape {
+private:
+    double width, height;
+
+public:
+    Rectangle(double w, double h) : width(w), height(h) {}
+
+    double area() const override {
+        return width * height;
+    }
+
+    double perimeter() const override {
+        return 2 * (width + height);
+    }
+};
+
+// Concrete class: Circle
+class Circle : public Shape {
+private:
+    double radius;
+
+public:
+    Circle(double r) : radius(r) {}
+
+    double area() const override {
+        return M_PI * radius * radius;
+    }
+
+    double perimeter() const override {
+        return 2 * M_PI * radius;
+    }
+};
+
+```
 
 **Abstraction:**
 
@@ -32,7 +83,7 @@ Characteristics of an object, often represented as class variables.
 A variable that is shared among all instances of a class. Defined using the * *static* * keyword in many programming languages.
 
 
-**Classes:**
+**Class:**
 
  The prototype for an object in an object-oriented language; analogous to a derived type in a procedural language. A class may also be considered to be a set of objects which share a common structure and behaviour. The structure of a class is determined by the class variables which represent the state of an object of that class and the behaviour is given by a set of methods associated with the class.
 
@@ -46,6 +97,34 @@ A variable that is shared among all instances of a class. Defined using the * *s
 
 A design principle where objects are built by containing other objects, representing a **"has-a"** relationship.
 
+**Concrete Class:**
+
+A class that can be instantiated to create objects and ssed to define fully implemented behavior for objects.
+
+```cpp
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+// Concrete class: Circle
+class Circle : public Shape {
+private:
+    double radius;
+
+public:
+    Circle(double r) : radius(r) {}
+
+    double area() const override {
+        return M_PI * radius * radius;
+    }
+
+    double perimeter() const override {
+        return 2 * M_PI * radius;
+    }
+};
+
+```
 
 **Constructors:**
 

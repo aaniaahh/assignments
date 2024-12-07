@@ -20,6 +20,8 @@ In this assignment I will be providing [definitions](https://github.com/aaniaahh
 
 - [ ] **Composition**
 
+- [ ] **Concrete Class**
+
 - [ ] **Constructors**
 
 - [ ] **Deep Copy**
