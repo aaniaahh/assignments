@@ -24,7 +24,7 @@ A file to store data into the program can read and process during execution.
 [main.cpp](https://github.com/aaniaahh/OOP/blob/main/assignments/P01/main.cpp) :
 Main driver that preforms the fraction algorithms called. 
 
-## Concepts used:
+### Concepts used:
 
 + Class
 
