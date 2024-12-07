@@ -8,17 +8,33 @@ I will also show the importance of maintaining proper class invariants, such as 
 
 Click [here](https://github.com/aaniaahh/OOP/blob/main/assignments/P01/main.cpp) to read the main cpp file.
 
+## Files Used:
+
+| #         | File                   | Description                         |
+|
+| 1.        | [Fraction.cpp](https://github.com/aaniaahh/OOP/blob/main/assignments/P01/Fraction.cpp) |
+A defined version of the header file (class). |
+|
+| 2.        | [Fraction.h](https://github.com/aaniaahh/OOP/blob/main/assignments/P01/Fraction.h) |
+The declarations for my Fraction class. |
+|
+| 3.        | [input.txt](https://github.com/aaniaahh/OOP/blob/main/assignments/P01/input.txt) |
+A file to store data into the program can read and process during execution. |
+|
+| 4.        | [main.cpp](https://github.com/aaniaahh/OOP/blob/main/assignments/P01/main.cpp) |
+Main driver that preforms the fraction algorithms called. |
+
 ## Concepts used:
 
-+ [Class](https://github.com/aaniaahh/OOP/blob/main/assignments/P01/Fraction.cpp)
++ Class
 
 + Code Modularity
 
 + Fractions
 
-+ [Header File](https://github.com/aaniaahh/OOP/blob/main/assignments/P01/Fraction.h)
++ Header File
 
-+ [Infile](https://github.com/aaniaahh/OOP/blob/main/assignments/P01/input.txt)/Outfile
++ Infile/Outfile
 
 + Least Common Denominator
 
