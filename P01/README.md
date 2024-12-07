@@ -8,9 +8,10 @@ I will also show the importance of maintaining proper class invariants, such as 
 
 Click [here](https://github.com/aaniaahh/OOP/blob/main/assignments/P01/main.cpp) to read the main cpp file.
 
-## Files Used:
+### Files Used:
 
 |   #   | File            | Description                         |
+
 | :----:| --------------- | ----------------------------------- |
 
 | 1.    | [Fraction.cpp](https://github.com/aaniaahh/OOP/blob/main/assignments/P01/Fraction.cpp) |
