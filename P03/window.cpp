@@ -4,6 +4,9 @@
 int main() {
 // Create a window with a title and dimensions (800x600)
 sf::RenderWindow window(sf::VideoMode(1024, 768), "Aniah's Knucklebones Game");
+    int red = rand() % 255;  // Random color value for red channel
+    int green = rand() % 255;  // Random color value for green channel
+    int blue  = rand() % 255;  // Random color value for blue channel
 
 // clock to calculate fps
 sf::Clock clock;
