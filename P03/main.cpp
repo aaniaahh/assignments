@@ -3,7 +3,10 @@
 
 int main() {
 // Create a window with a title and dimensions (800x600)
-sf::RenderWindow window(sf::VideoMode(1920, 1080), "Aniah's Knucklebones Game");
+sf::RenderWindow window(sf::VideoMode(1024, 768), "Aniah's Knucklebones Game");
+
+// clock to calculate fps
+sf::Clock clock;
 
     // Main game loop
     while (window.isOpen()) {
@@ -17,11 +20,16 @@ sf::RenderWindow window(sf::VideoMode(1920, 1080), "Aniah's Knucklebones Game");
             }
         }
 
+    sf::Time elapsed = clock.restart();
+    float fps = 1.0f / elapsed.asSeconds();
+    std::cout << "FPS: " << fps << std::endl;
+
         // Clear the window with a specific color
-        window.clear(sf::Color::Red);
+        window.clear(sf::Color::Blue);
 
         // Display the contents of the window
         window.display();
+
     }
 
     return 0;
