@@ -4,43 +4,8 @@
 #include <vector>
 #include <cstdlib>
 #include <ctime>
-
-class Game 
-{
-public:
-    Game :: Game(); // Constructor initializes game resources
-    void start(); // Main game loop
-
-private:
-    sf::RenderWindow window;
-    Dice* dice;             // Shared dice object
-    Player* current_player; // Pointer to the current player
-    Player players[2];      // Two players
-    Grid* grids[2];         // Separate grids for each player
-
-    void initialize();      // Setup game resources
-    void take_turn();       // Handle a player's turn
-    void display_game_state(); // Render game state on the window
-    void switch_turn();     // Swap active player
-    bool check_win();       // Check if the game has ended
-};
-
-class Player 
-{
-public:
-    Player(const std::string& name, int player_id);
-
-    // Player actions
-    void add_to_score(int points);
-    std::string get_name() const;
-    int get_score() const;
-    int get_player_id() const;
-
-private:
-    std::string name;
-    int score;
-    int player_id; // ID to differentiate between players
-};
+#include <Game.h>
+#include <Player.h>
 
 Player::Player(const std::string& name, int player_id) : name(name), score(0), player_id(player_id) {}
 
@@ -140,5 +105,5 @@ int main()
     Game game;
     game.start();
     return 0;
-    
+
 }
