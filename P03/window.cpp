@@ -28,7 +28,7 @@ sf::Clock clock;
     std::cout << "FPS: " << fps << std::endl;
 
         // Clear the window with a specific color
-        window.clear(sf::Color::Blue);
+        window.clear(sf::Color::Black);
 
         // Display the contents of the window
         window.display();
